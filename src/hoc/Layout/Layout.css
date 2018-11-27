@@ -9,3 +9,14 @@
     flex-direction: column;
     flex-grow: 1;
 }
+
+.close{
+    display: block;
+    background-color: #282c34;
+    transition: opacity, left .30s ease-in;
+    overflow: hidden;
+}
+
+.block{
+    visibility: hidden;
+}
